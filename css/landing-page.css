@@ -123,11 +123,24 @@ header.masthead h1{
   .top-section {
     margin-top: 75px;
     }
-  .showcase .showcase-text{padding:3rem}
-  .showcase .showcase-img{min-height:30rem;background-size:cover}
+  .showcase .showcase-text{
+    padding:3rem
+  }
+  .showcase .showcase-img{
+    min-height:30rem;
+    background-size:cover;
+
+  }
 
 @media (min-width:768px){
-  .showcase .showcase-text{padding:7rem}}
+  .showcase .showcase-text{
+    padding:7rem;}
+  .showcase .showcase-img{
+    min-height:30rem;
+    background-size:cover;
+    /*background-position-x: -200px;*/
+  }
+  }
 
 .features-icons{
   padding-top:7rem;
