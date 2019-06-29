@@ -6,11 +6,25 @@
 
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color:#2c1b10;
 }
 
-h1,
-h2,
-h3,
+h1 {
+  font-family: 'open sans', sans-serif;
+
+  font-weight: 800;
+  line-height: 4rem;
+  padding-bottom: 2.4rem;
+  text-transform: uppercase;
+}
+h2 {
+  color:#2c1b10;
+  text-transform: uppercase;
+}
+h3 {
+  color:#578C29;
+  text-transform: lowercase;
+  },
 h4,
 h5,
 h6 {
@@ -23,17 +37,26 @@ i {
   color:#578C29;
 }
 
+a {
+  text-decoration: none;
+}
 .navbar {
   color:#2c1b10;
   background-color: white;
+  padding-top: 0px;
+  padding-bottom: 0px;
+
 }
 
 .navbar img, ul {
   opacity: 1;
 }
 
-.navbar a {
+
+.navbar .nav-item .nav-link {
   color:#2c1b10;
+  background-color: transparent;
+
 }
 
 .navbar .nav-item .nav-link:hover {
@@ -79,15 +102,15 @@ header.masthead{
   background-color:#ffffff;
   background:url(../img/bg-masthead.jpg) no-repeat center center;
   background-size:cover;
-  padding-top:10rem;
+  padding-top:8rem;
   padding-bottom:8rem;
-  color: #2c1b10;
+  color: #ffffff;
 
 }
 
 header.masthead .overlay{
   position:absolute;
-  background-color: white;
+  background-color: #578C29;
   height:100%;
   width:100%;
   top:0;
@@ -95,9 +118,9 @@ header.masthead .overlay{
   opacity: 0.7;
 }
 
-
-header.masthead h1{
-  font-size:2rem
+header.masthead p {
+  line-height: 25px;
+  font-size: 1.1rem;
 }
 
 .next-section .ft-icons .ft-icons-item .ft-icons-icon i {
@@ -106,7 +129,7 @@ header.masthead h1{
 
 .next-section .ft-icons .ft-icons-item:hover .ft-icons-icon i {
   font-size: 3.5rem;
-}*/
+}
 
 
 @media (min-width:768px){
@@ -172,7 +195,18 @@ header.masthead h1{
 .testimonials .testimonial-item img{
   max-width:12rem;
   -webkit-box-shadow:0 5px 5px 0 #adb5bd;
-  box-shadow:0 5px 5px 0 #adb5bd
+  box-shadow:0 5px 5px 0 #adb5bd;
+}
+
+
+.testimonials .testimonial-item a{
+    text-decoration: none;
+    color:#2c1b10;
+}
+
+.testimonials .testimonial-item:hover a{
+    text-decoration: none;
+    color:#5e9248;
 }
 
 .showmore a{
