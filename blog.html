@@ -8,7 +8,8 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Dean & Golden Education</title>
+  <title>Dean+Golden Education</title>
+  <link rel="shortcut icon" href="img/icon.png">
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -19,24 +20,22 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
   <!-- Custom styles for this template -->
-  <link href="css/landing-page.min.css" rel="stylesheet">
+  <link href="css/landing-page.css" rel="stylesheet">
 
 </head>
 
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar fixed-top navbar-expand-lg bg-light navbar-light fixed-top">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light fixed-top">
     <div class="container">
       <a class="navbar-brand" href="index.html">
-        <img class="mr-2" src="img/logo.png" alt="NavBar Logo" height="50px">
-        <span class="font-weight-light text-uppercase" style="color: #578C29; font-size:16px;">Dean + Golden</span>
-        <span class="font-weight-light text-uppercase ml-1" style="color: #2c1b10; font-size:16px;">Education</span>
+        <img src="img/logo_text.png" alt="NavBar Logo" height="55px">
       </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
+      <div class="collapse navbar-collapse " id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link" href="index.html">home</a>
@@ -55,10 +54,10 @@
           </li>
           <!-- <li class="nav-item">
             <a class="nav-link" href="resources.html">resources</a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link" href="blog.html">blog</a>
-          </li> -->
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.html">contact</a>
           </li>
@@ -67,13 +66,164 @@
     </div>
   </nav>
 
-<!-- Coming Soon -->
-  <div class="jumbotron jumbotron-fluid text-center" style="padding-top: 200px;">
-  <div class="container">
-    <h1>Blog Posts Coming Soon...</h1>
-    <p>We're working on some great content for students and parents alike. Stay tuned!</p>
+  <!-- Masthead -->
+  <header class="masthead blog text-center" style="background-image: url('img/masterhead_blog.jpg');">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-10 mx-auto">
+          <h1 class="mt-4">D+G Blog</h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6 mx-auto">
+          <h5 class="post-subtitle mb-5">
+            insight from Dean+Golden+Friends on preparing for higher education
+          </h5>
+        </div>
+      </div>
+
+      <div class="row next-section">
+          <div class="col-lg-offset-4 col-lg-4 ft-icons d-flex m-auto" style="padding: 0px">
+              <div class="ft-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                  <div class="ft-icons-icon d-flex">
+                      <a href="#blogposts"><i class="fa fa-angle-double-down m-auto" style="color:#ffffff;"></i></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+    </div>
+  </header>
+
+<!--List of Blog Posts-->
+
+
+<div class="container blogs" id="blogposts">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+      <div class="post-preview">
+        <a class="portfolio-link" data-toggle="modal" href="#blogpost1">
+          <h2 class="post-title">
+            Preparing for Standardized Testing
+          </h2>
+          <h3 class="post-subtitle">
+            overcome the daunting task of test prep
+          </h3>
+        </a>
+        <p class="post-meta">Posted by
+          <a href="http://www.deangolden.com">Dean+Golden</a>
+          on July 8, 2019</p>
+      </div>
+      <hr>
+      <!--<div class="post-preview">
+        <a href="post.html">
+          <h2 class="post-title">
+            I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.
+          </h2>
+        </a>
+        <p class="post-meta">Posted by
+          <a href="#">Start Bootstrap</a>
+          on September 18, 2019</p>
+      </div>
+      <hr>
+      <div class="post-preview">
+        <a href="post.html">
+          <h2 class="post-title">
+            Science has not yet mastered prophecy
+          </h2>
+          <h3 class="post-subtitle">
+            We predict too much for the next year and yet far too little for the next ten.
+          </h3>
+        </a>
+        <p class="post-meta">Posted by
+          <a href="#">Start Bootstrap</a>
+          on August 24, 2019</p>
+      </div>
+      <hr>
+      <div class="post-preview">
+        <a href="post.html">
+          <h2 class="post-title">
+            Failure is not an option
+          </h2>
+          <h3 class="post-subtitle">
+            Many say exploration is part of our destiny, but it’s actually our duty to future generations.
+          </h3>
+        </a>
+        <p class="post-meta">Posted by
+          <a href="#">Start Bootstrap</a>
+          on July 8, 2019</p>
+      </div>
+      <hr>-->
+
+    </div>
   </div>
 </div>
+
+<hr>
+
+
+<!--Blog Details-->
+    <!--Blog 1-->
+    <div class="portfolio-modal modal fade" id="blogpost1" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog mx-auto">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+
+                    <h2 class="mb-3 text-uppercase">Preparing for Standardized Testing</h2>
+                    <h5 class="mb-4 text-lowercase">Written by: Chrystal Golden</h5>
+
+
+                  <h6 class="heading">When and how should I start preparing for standardized testing?</h6>
+
+                  <p>This is a question that students, parents, teachers, and guidance counselors try to tackle each year. Junior year was once an ideal time, but as high school courses become more challenging and extracurriculars become more plentiful (because college applications are right around the corner), students are becoming more and more stressed by the idea of including SAT/ACT preparation work into their already full lives. In order to alleviate this stress, Dean+Golden Education suggests that parents have their students answer these three questions to determine when and how to officially begin preparing for those pesky college admissions exams.</p>
+
+                  <h6>Do I have the time?</h6>
+
+                  <p>In the middle of football season for a football player or while preparing for a major production as the lead actor or actress are likely to be times when one shouldn’t also prepare for standardized testing. Students should strive to work towards SAT/ACT preparation during athletic off-seasons, long holiday breaks (summer and winter), and/or when there’s enough time to dedicate several hours per week to uninterrupted study and practice. Students should also consider when they have other major tests; preparing for the SAT/ACT while also preparing for AP exams or End of Course exams may not be the best time. </p>
+
+                  <h6>Where exactly do I start?</h6>
+
+                  <p>A mock test is the easiest way to determine what to study and how much time to dedicate to studying. You can find sample questions and full-length tests for both the SAT and ACT online:</p>
+
+                  <p class="text-center"><a href="https://collegereadiness.collegeboard.org/sat/practice/full-length-practice-tests">SAT Sample Tests</a> | <a href="https://blog.prepscholar.com/complete-official-act-practice-tests-free-links">ACT Sample Tests</a></p>
+
+                  <p>When practicing problems or taking a mock test, it is a best practice to mimic the testing environment: a quiet or silent room with no distractions. After practicing problems or completing a mock test, scoring and interpreting the score is crucial. If assistance is needed at this step, we can proctor a mock test, interpret results for your student, and advise on the next steps. </p>
+
+                  <h6>What score do I need?</h6>
+
+                  <p>This is a question that most people forget to ask when preparing to engage in test prep. While it is best practice to try to achieve the highest score possible, it may be more efficient to determine the best scoring range for a student’s intended college list. Most universities will publish the average score for its most recent incoming class (example: <a href="https://admission.tulane.edu/apply/getting-into-tulane/new-class-profile">Tulane Class of 2023 profile</a>). Students can use this information to determine the score that they need.</p>
+
+                  <h6>Bonus Question: Do I need a tutor?</h6>
+
+                  <p>At Dean+Golden Education, we honor and celebrate the different learning styles and abilities of all students. Some students only need to be pointed in the right direction to free resources such as <a href="https://www.khanacademy.org/">Khan Academy</a> that provide online support for SAT. In addition, there are many <a href="https://www.amazon.com/s?k=sat+act+books&ref=nb_sb_noss_1">SAT and ACT books</a> for purchase online at Amazon.com or at any major book store. These books usually include some sort of study plan that students can use. </p>
+
+                  <p>Some students may require someone to work with them one-on-one or in a group to explain topics and concepts along the way. In addition, a tutor can assign targeted homework problems and remain in communication with parents about progress. This option provides the student and their family with continuous support throughout their preparation. </p>
+
+                  <p>If you’re interested in learning more about one-on-one or group tutoring with Dean+Golden Education, we’d be more than happy to talk more with you about the options that we offer.</p>
+
+                  <button class="btn btn-primary mt-1" data-dismiss="modal" type="button">
+                    close details
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
 <!-- Footer -->
@@ -82,7 +232,7 @@
     <div class="row">
       <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
 
-        <p class="text-muted small mb-4 mb-lg-0">&copy; Dean & Golden Education 2019. All Rights Reserved.</p>
+        <p class="text-muted small mb-4 mb-lg-0">&copy; Dean+Golden Education, LLC 2019. All Rights Reserved.</p>
       </div>
       <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
         <ul class="list-inline mb-0">
@@ -107,6 +257,18 @@
   </div>
 </footer>
 
+<!-- Bootstrap core JavaScript -->
+
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Smooth Scroll-->
+  <script src="smooth-scroll-master/dist/smooth-scroll.polyfills.min.js"></script>
+  <script>
+    var scroll = new SmoothScroll('a[href*="#"]',{
+      easing: 'easeInOutQuint',
+      speed: 1500
+    });
+  </script>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>

@@ -67,13 +67,13 @@ a {
 .btn-primary {
   color:#2c1b10;
   background-color: #dde8d4;
-  border-color: #578C29;
+  border-color: #ffffff;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
   color:#2c1b10;
   background-color: #578C29 !important;
-  border-color: #578C29 !important;
+  border-color: #ffffff !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
@@ -94,20 +94,49 @@ a {
 .portfolio-modal .modal-content {
   padding: 50px 0;
   text-align: center;
-}
+  }
+
+  .portfolio-modal .modal-content a{
+      text-decoration: none;
+      color:#578C29;
+  }
+
+  .portfolio-modal .modal-content a:hover{
+      text-decoration: none;
+      color:#578C29;
+      font-weight: bolder;
+  }
 
 .portfolio-modal .modal-content h2 {
-  font-size: 3em;
   margin-bottom: 15px;
   color: #2c1b10;
 }
 
+.portfolio-modal .modal-content h5 {
+  margin-bottom: 15px;
+  color: #578C29;
+  text-align: center;
+  font-weight: lighter;
+
+
+}
+
+.portfolio-modal .modal-content h6 {
+  margin-bottom: 15px;
+  color: #2c1b10;
+  text-align: left;
+  spacing: 10px;
+}
+
 .portfolio-modal .modal-content p {
   margin-bottom: 30px;
+  text-align: left;
+  font-weight: lighter;
 }
 
 .portfolio-modal .modal-content p.item-intro {
   font-size: 16px;
+  text-align: center;
   font-style: italic;
   margin: 20px 0 30px;
   font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
@@ -201,28 +230,47 @@ a {
 
 header.masthead{
   position:relative;
-  background-color:#ffffff;
-  background:url(../img/bg-masthead.jpg) no-repeat center center;
+  background:no-repeat center center;
   background-size:cover;
   padding-top:8rem;
   padding-bottom:8rem;
-  color: #ffffff;
 
 }
 
 header.masthead .overlay{
   position:absolute;
-  background-color: #578C29;
   height:100%;
   width:100%;
   top:0;
   left:0;
+}
+
+header.masthead h5 {
+  line-height: 28px;
+  font-size: 1.1rem;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+header.index{
+  background-color:#ffffff;
+  color: #ffffff;
+}
+
+header.index .overlay{
+  background-color: #578C29;
   opacity: 0.7;
 }
 
-header.masthead p {
-  line-height: 25px;
-  font-size: 1.1rem;
+header.blog{
+  background-color:#2c1b10;
+  color: #ffffff;
+
+}
+
+header.blog .overlay{
+  background-color: #2c1b10;
+  opacity: 0.7;
 }
 
 .next-section .ft-icons .ft-icons-item .ft-icons-icon i {
@@ -284,36 +332,52 @@ header.masthead p {
   font-size:5rem
 }
 
-.testimonials{
+.blogs{
   padding-top:7rem;
   padding-bottom:7rem
 }
 
-.testimonials .testimonial-item{
-  padding-top:50px;
-  max-width:18rem
+.post-preview > a {
+  text-decoration: none;
 }
 
-.testimonials .testimonial-item img{
-  max-width:12rem;
-  -webkit-box-shadow:0 5px 5px 0 #adb5bd;
-  box-shadow:0 5px 5px 0 #adb5bd;
+.post-preview > a > .post-title {
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
-
-.testimonials .testimonial-item a{
-    text-decoration: none;
-    color:#2c1b10;
+.post-preview > a > .post-subtitle {
+  font-weight: 300;
+  margin: 0 0 10px;
 }
 
-.testimonials .testimonial-item:hover a{
-    text-decoration: none;
-    color:#5e9248;
+.post-preview > .post-meta {
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 0;
+  color: #868e96;
+}
+
+.post-preview > .post-meta > a {
+  text-decoration: none;
+  color: #2c1b10;
+}
+
+.post-preview > .post-meta > a:focus, .post-preview > .post-meta > a:hover {
+  text-decoration: none;
+  color: #578C29;
+}
+
+@media only screen and (min-width: 768px) {
+  .post-preview > a > .post-title {
+    font-size: 36px;
+  }
 }
 
 .showmore a{
   text-decoration: none;
-  color:#5e9248;
+  color:#578C29;
 }
 
 .showmore:hover a{
@@ -341,6 +405,34 @@ header.masthead p {
  padding: 1rem;
  opacity: 0.7;
  transition: all 0.2s;
+}
+
+/*Blog*/
+.testimonials{
+  padding-top:7rem;
+  padding-bottom:7rem
+}
+
+.testimonials .testimonial-item{
+  padding-top:50px;
+  max-width:18rem
+}
+
+.testimonials .testimonial-item img{
+  max-width:12rem;
+  -webkit-box-shadow:0 5px 5px 0 #adb5bd;
+  box-shadow:0 5px 5px 0 #adb5bd;
+}
+
+
+.testimonials .testimonial-item a{
+    text-decoration: none;
+    color:#2c1b10;
+}
+
+.testimonials .testimonial-item:hover a{
+    text-decoration: none;
+    color:#578C29;
 }
 
 /* Hover Effects on Card */
