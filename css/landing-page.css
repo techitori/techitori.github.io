@@ -94,6 +94,7 @@ a {
 .portfolio-modal .modal-content {
   padding: 50px 0;
   text-align: center;
+  border: transparent;
   }
 
   .portfolio-modal .modal-content a{
